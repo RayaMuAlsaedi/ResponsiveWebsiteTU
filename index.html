@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="Viewport" content="Width=device-width, initial-scale=1.0"/>
+        <title>Taibah university</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body dir="rtl">
+<!--navbar-->
+        <div class="navbar">
+            <h1 class="logo">جامعة طيبة </h1>
+            
+            <ul class="nav-links" >
+                <li class="active"><a href="#"></a>الرئيسية</li>
+                <li><a href="#"></a>جولة</li>
+                <li><a href="#"></a>أستكشف</li>
+                <li class="ctn"><a href="#"></a>تواصل معنا</li>
+            </ul>
+            <img src="./images/menu-btn.png" alt="" class="menu-btn">
+        </div>
+        
+
+        <header>
+            <div class="header-content">
+                <h2> جامعة طيبة </h2>
+                <div class="line"></div>
+                <h1>جامعة متميزة بمنطقة المدينة المنورة</h1>
+                <a href="#" class="ctn"> تعلم المزيد</a>
+                
+
+            </div>
+        </header>
+        <!--Events--> 
+        <section class="events">
+            <div class="title">
+                <h1>تعرّف على الجامعة</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./images/prep1.jpg" alt="">
+                    <h4>السنة التحضيرية</h4>
+                    <p>تهيء جامعة طيبة المستجدين في الجامعة للسنة التحضيرية بأنشطة وفعاليات ارشادية وتوجيهية </p>
+                    
+                    <a href="#" class="ctn">تعلم المزيد</a>
+                </div>
+                <div class="col">
+                    <img src="./images/u1111.jpg" alt="">
+                    <h4>كيف تستعد للدراسة بجامعة طيبة؟</h4>
+                    <p>تقدم جامعة طيبة خدمات عديدة لمساعدة المستجدين على اختيار تخصصاتهم والبدء بالمرحلة الجامعية </p>
+                    
+                    <a href="#" class="ctn">تعلم المزيد</a>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+           <div class="explore-content">
+            <h1>عن جامعة طيبة  ..</h1>
+            <div class="line"></div>
+            <p >جامعة طيبة جامعة حكومية سعودية تقع في المدينة المنورة، تأسست في 2003 م بعد دمج فرعي جامعتي الإمام محمد بن سعود الإسلامية وجامعة الملك عبد العزيز
+                ، وتم تسمية الجامعة بهذا الاسم تيمنًا بأحد الأسماء التي تطلق على المدينة المنورة وهو طيبة. حصلت الجامعة على المركز الثالث على مستوى الجامعات السعودية بحسب التصنيف الأخير لوزارة التعليم بالمملكة العربية السعودية، في فبراير 2019، شاركت الجامعة ضمن لجنة التحكيم في الأولمبياد الوطني للإبداع العلمي.</p>
+                <BR>
+                <a href="#" class="ctn">تعلم المزيد</a>
+           </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>رؤية ورسالة جامعة طيبة..</h1>  
+                    <div class="line"></div>
+                    <p> ​جامعة سعودية شاملة تلتزم بالتميز في نشر المعرفة وانتاجها وخدمة المجتمع ، والإرتقاء لمصاف الجامعات المتقدمة محلياً وإقليمياً وعالمياً. تهدف الجامعة إلى  المساهمة في بناء مجتمع يعزز التنمية المستدامة واقتصاديات المعرفة من خلال تعليم متميز وبحوث نوعية وشراكة مجتمعية في بيئة محفزة للتعلم والإبداع​.</p>
+                    <a href="#" class="ctn">تعلم المزيد</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="./images/1.png" alt="">
+                        <img src="./images/Image2.jpg" alt="">
+                        <img src="./images/image3.jpeg" alt="">
+                        <img src="./images/braineducation.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=> {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+    </html>
