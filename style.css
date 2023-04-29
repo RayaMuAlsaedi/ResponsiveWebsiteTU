@@ -9,8 +9,8 @@ body , html {
 /* navbar */
 .navbar {
     position: absolute;
-    top: 0px
-    left: 0px
+    top: 0px;
+    left: 0px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -196,6 +196,19 @@ p {
 .content-col .ctn {
     margin-left: -100px;
 }
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
+}
+.footer p {
+    color: whitesmoke;
+    margin: px auto;
+    padding: 20px auto;
+}
  /* Mobile Devices */
  @media only screen and (max-width: 850px) {
     .menu-btn{
@@ -226,5 +239,52 @@ p {
         border-bottom-left-radius: 30%;
         
      }
+     /* تعرف على الجامعة */
+     .row {
+        flex-direction: column;
+     }
+     .col img {
+        max-width: 90%;
+     }
+     .row .col {
+        margin: 20px auto;
+     }
+     /* عن الجامعة */
+     .explore-content {
+        width: 100%;
+
+     }
+     .tours .col {
+        width: 100%;
+
+     }
+     .image-gallery {
+        justify-content: center;
+        align-items: center;
+     }
+     .image-gallery img {
+        width: 90%;
+     }
+     .footer {
+        padding: 10px;
+     }
+     
+    }
+    /*Animations*/
+    img {
+        transition: transform .3s ease;
+
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+    .ctn:hover {
+        background: whitesmoke;
+        color: #fc036b;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }
+    li:hover {
+        color: #fc036b;
+        cursor: pointer;
     }
     
